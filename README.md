@@ -12,9 +12,12 @@ Para ejecutar la simulación, solo se necesita tener instalados **Git** y **Dock
 
 ## Pasos
 1.  **Clonar el repositorio:**
-    git clone https://github.com/erikcollboni/ACTIVIDAD-1.2.git
+    ```bash
+    git clone <https://github.com/erikcollboni/ACTIVIDAD-1.2.git>
+    ```
 
 2.  **Levantar los contenedores y ejecutar la simulación:**
+    ```bash
     docker-compose up --build
-
+    ```
 En la terminal se ven los logs de los agentes y del observador en tiempo real hasta que se alcanza un consenso y todos los contenedores se detienen automáticamente.
