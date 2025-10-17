@@ -12,7 +12,7 @@ Para ejecutar la simulación, solo se necesita tener instalados **Git** y **Dock
 
 ## Pasos
 1.  **Clonar el repositorio:**
-    git clone <URL_DEL_REPOSITORIO>
+    git clone https://github.com/erikcollboni/ACTIVIDAD-1.2.git
 
 2.  **Levantar los contenedores y ejecutar la simulación:**
     docker-compose up --build
